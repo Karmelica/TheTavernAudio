@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{b95832e6-c7ba-4ddd-ad6a-8d1bcc6c5a76}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../Unity/TheTavernAudio/FMOD Studio/Tavern/Build</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{60cdaf9a-e1a2-45ce-9673-e3ed6de1256c}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{2f9ccbfc-d50e-47f1-bf18-71be8bfce6ea}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{fc7cfafd-f9ba-475c-837d-1a5d77e8f4d4}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{4dd7ff1b-f670-46bb-9b14-c7b2cedd88d1}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{d0caed43-8022-43fb-8809-e5477da56d2e}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{7590927b-ce08-4224-9048-65576dedea4d}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{68cb378f-d239-4071-babd-2c54260f03db}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{4470b56e-54ee-4f60-98d7-d86402f9fb77}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{fe89e39c-6694-4dff-9e0f-f702396c032c}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{881a3b16-5e96-4b0a-9b2f-9e1c83edabcc}</destination>
+		</relationship>
+	</object>
+</objects>
