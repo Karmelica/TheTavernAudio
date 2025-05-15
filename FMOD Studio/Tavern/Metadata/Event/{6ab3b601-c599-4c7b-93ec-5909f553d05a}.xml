@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6ab3b601-c599-4c7b-93ec-5909f553d05a}">
 		<property name="name">
 			<value>ambForest</value>
@@ -151,7 +151,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{ba9bf4dc-dfbb-4da2-80cc-ed35b32961ac}">
 		<relationship name="effects">
-			<destination>{eb4a361d-bd25-405f-a52e-eea5b47aac19}</destination>
 			<destination>{a7db8862-5e8c-4bf4-833a-065da21bf00d}</destination>
 		</relationship>
 	</object>
@@ -186,26 +185,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{83da1bbb-f672-4747-8855-c08fcd45c35d}" />
-	<object class="MultibandEqEffect" id="{eb4a361d-bd25-405f-a52e-eea5b47aac19}">
-		<property name="filterTypeA">
-			<value>7</value>
-		</property>
-		<property name="filterTypeB">
-			<value>8</value>
-		</property>
-		<property name="frequencyA">
-			<value>387.055267</value>
-		</property>
-		<property name="frequencyB">
-			<value>1519.33789</value>
-		</property>
-		<property name="gainA">
-			<value>13.965519</value>
-		</property>
-		<property name="gainB">
-			<value>-15.5172415</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{a7db8862-5e8c-4bf4-833a-065da21bf00d}" />
 	<object class="AutomationPoint" id="{d3e42044-6f9f-44b6-b4ca-5c2d2b1457ff}">
 		<property name="position">

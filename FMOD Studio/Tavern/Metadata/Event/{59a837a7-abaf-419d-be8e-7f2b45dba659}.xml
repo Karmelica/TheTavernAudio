@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{59a837a7-abaf-419d-be8e-7f2b45dba659}">
 		<property name="name">
 			<value>ambFire</value>
@@ -83,6 +83,9 @@
 			<destination>{8ea78e7a-a1b2-4e0a-ab49-a73e039eae3b}</destination>
 			<destination>{a2fe8b78-f744-41b0-9e19-c281cd08aff7}</destination>
 			<destination>{d8be40a1-13fb-4fd6-a31e-9c4d3ff7eedf}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{939e376e-3f0c-4fe4-8b0a-c5a8f3f120c9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0e48cd0c-0601-42df-b615-6b82afa84ef5}">
@@ -184,6 +187,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{0e48cd0c-0601-42df-b615-6b82afa84ef5}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{939e376e-3f0c-4fe4-8b0a-c5a8f3f120c9}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>56</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{068a3612-c2a5-4f2d-880e-0605e0c3abb1}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{c5acb37f-a4e7-4e07-b967-20ee22beff02}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{61eb2614-f3ba-4a73-a253-ff52531989b8}">
