@@ -94,10 +94,10 @@ MonoBehaviour:
   Path: ../../Audio/TavernAudioFMOD/Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638834982029012146
+  lastModified: 638835081352054571
   FileSizes:
   - Name: Desktop
-    Value: 3742496
+    Value: 3743808
   Exists: 1
 --- !u!114 &-2366283722492893198
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7114915579618525507}
   cacheVersion: 131847
-  cacheTime: 638834982029012146
+  cacheTime: 638835081352074558
   SerializableEventsDict:
   - key: event:/ambient/ambForest
     index: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
   - {fileID: -3647698888663519792}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -347,8 +347,8 @@ MonoBehaviour:
   Path: ../../Audio/TavernAudioFMOD/Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638834982029012146
+  lastModified: 638835081352074558
   FileSizes:
   - Name: Desktop
-    Value: 1148
+    Value: 1160
   Exists: 1

@@ -18,15 +18,16 @@ TagManager:
   - Spell
   - NewSpell
   - Inside_wood
+  - AmbSwitch
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - Wood
+  - Stone
   - 
   - 
   - 

@@ -1,5 +1,7 @@
+using FMOD.Studio;
 using UnityEngine;
 using FMODUnity;
+using UnityEngine.Serialization;
 using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 public class FMODCommands : MonoBehaviour
@@ -14,7 +16,7 @@ public class FMODCommands : MonoBehaviour
     #region EVENT
 
     // EVENT
-    FMOD.Studio.EventInstance FootstepsSound; // Deklaracja zmiennej, która będzie przechowywać instancję eventu Footsteps.
+    EventInstance footstepsSound; // Deklaracja zmiennej, która będzie przechowywać instancję eventu Footsteps.
 
     public EventReference footstepsEvent; // Deklaracja publicznego pola, które przechowuje referencję do pliku z eventem Footsteps.
 
@@ -24,21 +26,21 @@ public class FMODCommands : MonoBehaviour
         RuntimeManager.PlayOneShot(footstepsEvent); // Odtwarza event jednokrotnie bez zarządzania jego instancją.
 
         // podstawowe zarządzanie eventem
-        FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent); // Tworzy nową instancję eventu Footsteps.
-        FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone"); // Ustawia parametr o nazwie "Footsteps_surface" na wartość "Stone".
-        FootstepsSound.start(); // Uruchamia odtwarzanie eventu.
-        FootstepsSound.stop(STOP_MODE.IMMEDIATE); // Stopuje odtwarzanie eventu bez fadeoutu.
-        FootstepsSound.stop(STOP_MODE.ALLOWFADEOUT); // Stopuje odtwarzanie eventu z fadeoutem.
-        FootstepsSound.release(); // Zwolnia pamięć zajmowaną przez instancję eventu.
+        footstepsSound = RuntimeManager.CreateInstance(footstepsEvent); // Tworzy nową instancję eventu Footsteps.
+        footstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone"); // Ustawia parametr o nazwie "Footsteps_surface" na wartość "Stone".
+        footstepsSound.start(); // Uruchamia odtwarzanie eventu.
+        footstepsSound.stop(STOP_MODE.IMMEDIATE); // Stopuje odtwarzanie eventu bez fadeoutu.
+        footstepsSound.stop(STOP_MODE.ALLOWFADEOUT); // Stopuje odtwarzanie eventu z fadeoutem.
+        footstepsSound.release(); // Zwolnia pamięć zajmowaną przez instancję eventu.
 
         // zarządzanie eventem z przypięciami emittera do gameObjectu 
-        FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
-        FootstepsSound.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform)); // Przypięcia emitter eventu do obiektu GameObject.
-        FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone");
-        FootstepsSound.start();
-        FootstepsSound.stop(STOP_MODE.IMMEDIATE);
-        FootstepsSound.stop(STOP_MODE.ALLOWFADEOUT);
-        FootstepsSound.release();
+        footstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
+        footstepsSound.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform)); // Przypięcia emitter eventu do obiektu GameObject.
+        footstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone");
+        footstepsSound.start();
+        footstepsSound.stop(STOP_MODE.IMMEDIATE);
+        footstepsSound.stop(STOP_MODE.ALLOWFADEOUT);
+        footstepsSound.release();
     }
 
     #endregion
@@ -46,7 +48,7 @@ public class FMODCommands : MonoBehaviour
     #region SNAPSHOT
 
     // SNAPSHOT
-    FMOD.Studio.EventInstance HealthSnap; // Deklaracja zmiennej, która będzie przechowywać instancję snapshotu Health.
+    EventInstance HealthSnap; // Deklaracja zmiennej, która będzie przechowywać instancję snapshotu Health.
 
     public EventReference healthSnapshot; // Deklaracja publicznego pola, które przechowuje referencję do pliku z snapshotem Health.
 
@@ -90,14 +92,14 @@ public class FMODCommands : MonoBehaviour
     #region EVENT / EMITTER Z MUZYKĄ
 
     // EVENT / EMITTER Z MUZYKĄ
-    FMOD.Studio.EventInstance Music; // Deklaracja zmiennej, która będzie przechowywać instancję eventu Music.
+    public EventInstance Music; // Deklaracja zmiennej, która będzie przechowywać instancję eventu Music.
 
-    public StudioEventEmitter tavernEmitter_Music; // Deklaracja publicznego pola, które przechowuje referencję do event emittera na scenie.
+    public StudioEventEmitter tavernEmitterMusic; // Deklaracja publicznego pola, które przechowuje referencję do event emittera na scenie.
 
     private void MusicSwitch()
     {
         // EVENT
-        FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent); // Tworzy nową instancję eventu Footsteps.
+        footstepsSound = RuntimeManager.CreateInstance(footstepsEvent); // Tworzy nową instancję eventu Footsteps.
         Music.setParameterByNameWithLabel("Switch_parts", "Part 2"); // Ustawia parametr o nazwie "Switch_parts" na wartość "Part 2".
         Music.start(); // Uruchamia odtwarzanie eventu.
         Music.stop(STOP_MODE.IMMEDIATE); // Stopuje odtwarzanie eventu bez fadeoutu.
@@ -105,9 +107,9 @@ public class FMODCommands : MonoBehaviour
         Music.release(); // Zwolnia pamięć zajmowaną przez instancję eventu.
 
         // EMITTER
-        tavernEmitter_Music.SetParameter("Switch_parts", 0); // Ustawia parametr o nazwie "Switch_parts" na wartość 0 dla event emittera.
-        tavernEmitter_Music.Play(); // Uruchamia odtwarzanie na emitterze.
-        tavernEmitter_Music.Stop(); // Stopuje odtwarzanie na emitterze.
+        tavernEmitterMusic.SetParameter("Switch_parts", 0); // Ustawia parametr o nazwie "Switch_parts" na wartość 0 dla event emittera.
+        tavernEmitterMusic.Play(); // Uruchamia odtwarzanie na emitterze.
+        tavernEmitterMusic.Stop(); // Stopuje odtwarzanie na emitterze.
     }
 
     #endregion

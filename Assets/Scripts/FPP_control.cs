@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,9 +21,9 @@ public class FPSController : MonoBehaviour
     float rotationX = 0;
 
     public bool canMove = true;
-
-
+    
     CharacterController characterController;
+    
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -30,9 +31,20 @@ public class FPSController : MonoBehaviour
         Cursor.visible = false;
     }
 
+    // private IEnumerator WalkSound()
+    // {
+    //     if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1.5f))
+    //     {
+    //         if (hit.collider.CompareTag("Wood"))
+    //         {
+    //             AudioManager.instance.PlayOneShot(AudioEvents.instance.footSteps, transform.position);
+    //         }
+    //     }
+    // }
+
     void Update()
     {
-
+        
         #region Handles Movement
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -45,7 +57,7 @@ public class FPSController : MonoBehaviour
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
         #endregion
-
+        
         #region Handles Jumping
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
