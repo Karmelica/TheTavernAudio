@@ -26,26 +26,6 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
---- !u!114 &-7515192764110343030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD Studio/Tavern/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638829030888209709
-  FileSizes:
-  - Name: Desktop
-    Value: 5946624
-  Exists: 1
 --- !u!114 &-7312128551581571998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,7 +71,7 @@ MonoBehaviour:
     Data3: 156888211
     Data4: 1523602421
   Banks:
-  - {fileID: -7515192764110343030}
+  - {fileID: -3647698888663519792}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -99,6 +79,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41503
+--- !u!114 &-3647698888663519792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Audio/TavernAudioFMOD/Tavern/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638834982029012146
+  FileSizes:
+  - Name: Desktop
+    Value: 3742496
+  Exists: 1
 --- !u!114 &-2366283722492893198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,10 +118,10 @@ MonoBehaviour:
     Data3: 729779902
     Data4: 1504107333
   Banks:
-  - {fileID: -7515192764110343030}
+  - {fileID: -3647698888663519792}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -165,8 +165,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6365400038778630277}
-  - {fileID: -7515192764110343030}
+  - {fileID: 7114915579618525507}
+  - {fileID: -3647698888663519792}
   EditorEvents:
   - {fileID: -5984664043026763953}
   - {fileID: 2763085350338139236}
@@ -176,11 +176,11 @@ MonoBehaviour:
   - {fileID: -2366283722492893198}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7515192764110343030}
+  - {fileID: -3647698888663519792}
   StringsBanks:
-  - {fileID: 6365400038778630277}
+  - {fileID: 7114915579618525507}
   cacheVersion: 131847
-  cacheTime: 638829030888224762
+  cacheTime: 638834982029012146
   SerializableEventsDict:
   - key: event:/ambient/ambForest
     index: 0
@@ -239,7 +239,7 @@ MonoBehaviour:
     Data3: -518707317
     Data4: 461067063
   Banks:
-  - {fileID: -7515192764110343030}
+  - {fileID: -3647698888663519792}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -267,7 +267,7 @@ MonoBehaviour:
     Data3: -726331508
     Data4: 251228738
   Banks:
-  - {fileID: -7515192764110343030}
+  - {fileID: -3647698888663519792}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -296,7 +296,7 @@ MonoBehaviour:
     Data3: -716609613
     Data4: 1104257252
   Banks:
-  - {fileID: -7515192764110343030}
+  - {fileID: -3647698888663519792}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -324,15 +324,15 @@ MonoBehaviour:
     Data3: -1427278451
     Data4: 1445295371
   Banks:
-  - {fileID: -7515192764110343030}
+  - {fileID: -3647698888663519792}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 207609
---- !u!114 &6365400038778630277
+  Length: 77538
+--- !u!114 &7114915579618525507
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,11 +344,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: FMOD Studio/Tavern/Build/Desktop/Master.strings.bank
+  Path: ../../Audio/TavernAudioFMOD/Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638829030888224762
+  lastModified: 638834982029012146
   FileSizes:
   - Name: Desktop
-    Value: 1160
+    Value: 1148
   Exists: 1
