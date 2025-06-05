@@ -54,7 +54,7 @@
 			<destination>{869e052f-c806-45b0-98f5-82c4466f5e9e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e1699778-d9d6-4908-9c38-039f11afe61a}</destination>
+			<destination>{9a0cf2cc-dce7-4171-9015-05f5151d713e}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{faf56b05-a45f-4c79-bfaa-4b723936d6fc}" />
@@ -188,8 +188,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{61eb2614-f3ba-4a73-a253-ff52531989b8}">
 		<relationship name="effects">
-			<destination>{916c2d4a-2436-4db0-90d4-e68d5cb0228e}</destination>
 			<destination>{b6523f34-19c3-4459-8e9c-eba66843bb22}</destination>
+			<destination>{916c2d4a-2436-4db0-90d4-e68d5cb0228e}</destination>
 			<destination>{c3ffae51-a93c-45db-ab1f-76ace889bdec}</destination>
 		</relationship>
 	</object>
@@ -251,8 +251,8 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8514dc46-2d57-4723-8318-37107b3641c9}" />
-	<object class="SFXReverbEffect" id="{916c2d4a-2436-4db0-90d4-e68d5cb0228e}" />
 	<object class="MixerBusFader" id="{b6523f34-19c3-4459-8e9c-eba66843bb22}" />
+	<object class="SFXReverbEffect" id="{916c2d4a-2436-4db0-90d4-e68d5cb0228e}" />
 	<object class="SpatialiserEffect" id="{c3ffae51-a93c-45db-ab1f-76ace889bdec}" />
 	<object class="AutomationPoint" id="{752456dd-ca7f-410e-91a5-cef2157f47ad}">
 		<property name="position">

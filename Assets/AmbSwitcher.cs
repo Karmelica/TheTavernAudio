@@ -1,16 +1,19 @@
+using System;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 
 public class AmbSwitcher : MonoBehaviour
 {
-    public GameObject ambTavern;
-    public GameObject ambForest;
+    [SerializeField] private EventReference outsideSnapshot;
+    
+    private EventInstance outsideSnapshotInstance;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            ambTavern.SetActive(false);
-            ambForest.SetActive(true);
+            outsideSnapshotInstance.start();
         }
     }
     
@@ -18,8 +21,12 @@ public class AmbSwitcher : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            ambTavern.SetActive(true);
-            ambForest.SetActive(false);
+            outsideSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
+    }
+
+    private void Start()
+    {
+        outsideSnapshotInstance = RuntimeManager.CreateInstance(outsideSnapshot);
     }
 }

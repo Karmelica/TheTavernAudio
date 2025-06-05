@@ -6,47 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="f8a8a52a-84d3-4bba-80c3-fb86139b7070" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheTavernAudio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheTavernAudio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmbSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmbSwitcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Town/Animations/DoorOpen.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Town/Animations/DoorOpen.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Town/Animations/Tavern_doorL 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Town/Animations/Tavern_doorL 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Town/Animations/Tavern_doorL 2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Town/Animations/Tavern_doorL 2.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OldScripts/Footsteps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OldScripts/Footsteps.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/buildrecords/Desktop/Master.br" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/buildrecords/Desktop/Master.br" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/1ACA1B9B.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/1ACA1B9B.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/237E8F92.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/237E8F92.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/35A5CE96.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/35A5CE96.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/392CD61C.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/392CD61C.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5315B18A.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5315B18A.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5500A2DC.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5500A2DC.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5ED3FED3.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5ED3FED3.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5F34C21D.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5F34C21D.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5F3B2200.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/5F3B2200.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/7E2ED319.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/7E2ED319.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/8AE96A6C.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/8AE96A6C.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/8D948232.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/8D948232.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A019031F.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A019031F.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/B5DA3B8F.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/B5DA3B8F.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/B63D8589.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/B63D8589.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/BBDBF996.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/BBDBF996.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/C6886B4A.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/C6886B4A.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/D89DD3D3.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/D89DD3D3.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/E5714D00.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/E5714D00.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/F7F8A819.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/F7F8A819.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/FA967327.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/FA967327.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/FCE08DD6.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/FCE08DD6.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{e4dc7620-a35f-4d42-9917-1e9a0167d3d1}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{e4dc7620-a35f-4d42-9917-1e9a0167d3d1}.pdc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.strings.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{0b6b8589-be48-493e-8d75-edaa0b752556}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{0b6b8589-be48-493e-8d75-edaa0b752556}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{59a837a7-abaf-419d-be8e-7f2b45dba659}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{59a837a7-abaf-419d-be8e-7f2b45dba659}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{6ab3b601-c599-4c7b-93ec-5909f553d05a}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{6ab3b601-c599-4c7b-93ec-5909f553d05a}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{82366506-2824-4a78-8c0f-b5d44272f90e}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{82366506-2824-4a78-8c0f-b5d44272f90e}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{910f5153-0c71-4ccb-b367-49d5e4a0d141}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{910f5153-0c71-4ccb-b367-49d5e4a0d141}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{f7c6646b-e551-4fcb-8b27-15e137537b1b}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{f7c6646b-e551-4fcb-8b27-15e137537b1b}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/SnapshotGroup/{38d29881-a6fc-444e-bc02-a82c307e01c7}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/SnapshotGroup/{38d29881-a6fc-444e-bc02-a82c307e01c7}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{9635b2d2-cdc2-43b2-acd5-27f2651fbb78}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{9635b2d2-cdc2-43b2-acd5-27f2651fbb78}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/ParameterPreset/{da3961a7-4e3b-415d-a817-1bebf0da4664}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/ParameterPreset/{da3961a7-4e3b-415d-a817-1bebf0da4664}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Snapshot/{e4197fbc-e41f-47d5-a4c1-517817d3d78e}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Snapshot/{e4197fbc-e41f-47d5-a4c1-517817d3d78e}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
@@ -61,10 +35,12 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
@@ -149,7 +125,7 @@
       <workItem from="1747894678983" duration="506000" />
       <workItem from="1747895827733" duration="6292000" />
       <workItem from="1747903875858" duration="672000" />
-      <workItem from="1749103792344" duration="3189000" />
+      <workItem from="1749103792344" duration="6645000" />
     </task>
     <servers />
   </component>

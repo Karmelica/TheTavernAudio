@@ -53,7 +53,7 @@
 			<destination>{598613c0-80ed-4295-93e9-4607c23068f1}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e1699778-d9d6-4908-9c38-039f11afe61a}</destination>
+			<destination>{dc6ccd0f-6c19-45bc-8a44-6caa78d9ac19}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6c0efc4a-dd5d-4865-bbb8-59646d73a74f}" />
@@ -77,6 +77,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{153531a3-7b25-444c-a610-b2f24f7cb27c}">
+		<relationship name="modulators">
+			<destination>{a1793da8-c770-4223-8a51-f6e26c7f7d29}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{ba9bf4dc-dfbb-4da2-80cc-ed35b32961ac}</destination>
 		</relationship>
@@ -149,10 +152,21 @@
 			<destination>{3ac3d49d-b9ae-452f-8027-d47f6687deea}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{a1793da8-c770-4223-8a51-f6e26c7f7d29}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{ba9bf4dc-dfbb-4da2-80cc-ed35b32961ac}">
 		<relationship name="effects">
-			<destination>{eb4a361d-bd25-405f-a52e-eea5b47aac19}</destination>
 			<destination>{a7db8862-5e8c-4bf4-833a-065da21bf00d}</destination>
+			<destination>{eb4a361d-bd25-405f-a52e-eea5b47aac19}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{51485ba7-5167-4e52-97ce-d1b828ed296a}" />
@@ -186,6 +200,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{83da1bbb-f672-4747-8855-c08fcd45c35d}" />
+	<object class="MixerBusFader" id="{a7db8862-5e8c-4bf4-833a-065da21bf00d}" />
 	<object class="MultibandEqEffect" id="{eb4a361d-bd25-405f-a52e-eea5b47aac19}">
 		<property name="filterTypeA">
 			<value>7</value>
@@ -206,7 +221,6 @@
 			<value>-15.5172415</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{a7db8862-5e8c-4bf4-833a-065da21bf00d}" />
 	<object class="AutomationPoint" id="{d3e42044-6f9f-44b6-b4ca-5c2d2b1457ff}">
 		<property name="position">
 			<value>31.5</value>
