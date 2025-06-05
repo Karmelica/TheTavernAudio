@@ -7,26 +7,16 @@
     <list default="true" id="f8a8a52a-84d3-4bba-80c3-fb86139b7070" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheTavernAudio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheTavernAudio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AmbSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmbSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/buildrecords/Desktop/Master.br" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/buildrecords/Desktop/Master.br" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.strings.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{0b6b8589-be48-493e-8d75-edaa0b752556}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{0b6b8589-be48-493e-8d75-edaa0b752556}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{59a837a7-abaf-419d-be8e-7f2b45dba659}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{59a837a7-abaf-419d-be8e-7f2b45dba659}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{6ab3b601-c599-4c7b-93ec-5909f553d05a}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{6ab3b601-c599-4c7b-93ec-5909f553d05a}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{82366506-2824-4a78-8c0f-b5d44272f90e}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{82366506-2824-4a78-8c0f-b5d44272f90e}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{9635b2d2-cdc2-43b2-acd5-27f2651fbb78}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{9635b2d2-cdc2-43b2-acd5-27f2651fbb78}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/ParameterPreset/{da3961a7-4e3b-415d-a817-1bebf0da4664}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/ParameterPreset/{da3961a7-4e3b-415d-a817-1bebf0da4664}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Snapshot/{e4197fbc-e41f-47d5-a4c1-517817d3d78e}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Snapshot/{e4197fbc-e41f-47d5-a4c1-517817d3d78e}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{96f611d1-91e9-4735-99d9-34837881139f}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{96f611d1-91e9-4735-99d9-34837881139f}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{afad31c4-8054-4d70-bda2-7ccdd42992f2}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{afad31c4-8054-4d70-bda2-7ccdd42992f2}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
@@ -35,13 +25,6 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +108,7 @@
       <workItem from="1747894678983" duration="506000" />
       <workItem from="1747895827733" duration="6292000" />
       <workItem from="1747903875858" duration="672000" />
-      <workItem from="1749103792344" duration="6645000" />
+      <workItem from="1749103792344" duration="7127000" />
     </task>
     <servers />
   </component>
