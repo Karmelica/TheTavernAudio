@@ -22,6 +22,7 @@ public class AmbSwitcher : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             outsideSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            outsideSnapshotInstance.release();
         }
     }
 
