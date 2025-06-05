@@ -7,6 +7,15 @@ public class AudioEvents : MonoBehaviour
     
     [Header("Player Sounds")]
     public EventReference footSteps;
+    public EventReference jump;
+
+    [Header("Interaction")] public EventReference doorOpen;
+    
+    [Header("Ambient Sounds")]
+    public EventReference ambientForest;
+    public EventReference ambientFire;
+    
+    [Header("Music")] public EventReference tavernMusic;
 
     private void Awake()
     {

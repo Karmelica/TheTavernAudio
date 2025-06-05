@@ -685,12 +685,99 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1330636291972076, guid: cb181bc6c302bca40929333077286a04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 159108037}
+    - targetCorrespondingSourceObject: {fileID: 1387666638803148, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 159108035}
+    - targetCorrespondingSourceObject: {fileID: 1917266655935810, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 159108034}
+    - targetCorrespondingSourceObject: {fileID: 1900193998678594, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 159108031}
   m_SourcePrefab: {fileID: 100100000, guid: cb181bc6c302bca40929333077286a04, type: 3}
 --- !u!1 &159108029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1330636291972076, guid: cb181bc6c302bca40929333077286a04, type: 3}
   m_PrefabInstance: {fileID: 159108028}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &159108030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1900193998678594, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &159108031
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159108030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 24cdd77f85be0c44a9dca51101d848f9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &159108032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1917266655935810, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &159108033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1387666638803148, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &159108034
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159108032}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70be6c29f8412514ca937137a9431867, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!95 &159108035
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159108033}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be0caad33b46bd94b8bf524c994b7ee9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!95 &159108037
 Animator:
   serializedVersion: 5
@@ -1607,6 +1694,41 @@ MonoBehaviour:
       Data3: -716609613
       Data4: 1104257252
     Path: event:/sfx/footsteps
+  jump:
+    Guid:
+      Data1: -2110364410
+      Data2: 1249388580
+      Data3: -726331508
+      Data4: 251228738
+    Path: event:/sfx/jump
+  doorOpen:
+    Guid:
+      Data1: -137993109
+      Data2: 1338762577
+      Data3: -518707317
+      Data4: 461067063
+    Path: event:/sfx/door
+  ambientForest:
+    Guid:
+      Data1: 1790162433
+      Data2: 1283179929
+      Data3: 156888211
+      Data4: 1523602421
+    Path: event:/ambient/ambForest
+  ambientFire:
+    Guid:
+      Data1: 1504196519
+      Data2: 1100852143
+      Data3: 729779902
+      Data4: 1504107333
+    Path: event:/ambient/ambFire
+  tavernMusic:
+    Guid:
+      Data1: 191595913
+      Data2: 1228848712
+      Data3: -1427278451
+      Data4: 1445295371
+    Path: event:/music/tavernMusic
 --- !u!114 &356419968
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -57,7 +57,7 @@
 			<destination>{0ff0c208-4d66-4e9d-90a2-7360735426ff}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{abd6ddfe-354d-410f-ba97-d92c3354b7a1}</destination>
+			<destination>{46402827-4560-4c9a-814a-186a339385f4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{080e0c92-d6bf-49e8-8a8e-f5d18ed5822d}" />
@@ -239,7 +239,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ec8ca2a1-94e1-4ad5-a717-da20b8938060}" />
-	<object class="SFXReverbEffect" id="{5fcd2bd0-65ac-4c19-b492-3a95ffca5b3f}" />
+	<object class="SFXReverbEffect" id="{5fcd2bd0-65ac-4c19-b492-3a95ffca5b3f}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6af530eb-2e90-4e8e-8140-fae860324243}" />
 	<object class="SpatialiserEffect" id="{a00ef85f-3480-4d06-be5c-9e8ce1e6872f}" />
 	<object class="MixerBusFader" id="{389bd742-5270-4b67-aca8-4ce85b0b9b1d}" />

@@ -1,26 +1,23 @@
+using FMOD.Studio;
 using FMODUnity;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.XR;
 
 public class Footsteps : MonoBehaviour
 {
     // 
-    FMOD.Studio.EventInstance FootstepsSound;
-    FMOD.Studio.EventInstance JumpSound;
-    FMOD.Studio.EventInstance LandSound;
+    private EventInstance FootstepsSound;
+    private EventInstance JumpSound;
+    private EventInstance LandSound;
 
     public EventReference footstepsEvent;
     public EventReference jumpEvent;
     public EventReference landEvent;
 
-    private float lastFootstepTime = 0f;
+    private float lastFootstepTime;
     private float distToGround;
     private bool isGrounded = true;
-    private bool isJumping = false;
-    
+    private bool isJumping;
+
     private void Start()
     {
         distToGround = GetComponent<Collider>().bounds.extents.y;
@@ -32,32 +29,30 @@ public class Footsteps : MonoBehaviour
         {
             Debug.Log(IsGrounded());
             PlayJump();
-        }        
+        }
     }
-    void FixedUpdate()
+
+    private void FixedUpdate()
     {
         // Footsteps
         if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
-        {
             if (IsGrounded() && Time.time - lastFootstepTime > 0.5f)
             {
                 lastFootstepTime = Time.time;
                 PlayFootsteps();
             }
-        }         
-        
+
         // Running
-        if((Input.GetKey(KeyCode.LeftShift) && Input.GetAxisRaw("Horizontal") != 0) || (Input.GetKey(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") != 0))
-        {
+        if ((Input.GetKey(KeyCode.LeftShift) && Input.GetAxisRaw("Horizontal") != 0) ||
+            (Input.GetKey(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") != 0))
             if (IsGrounded() && Time.time - lastFootstepTime > 0.25f)
             {
                 lastFootstepTime = Time.time;
                 PlayFootsteps();
             }
-        }
     }
 
-    void PlayFootsteps()
+    private void PlayFootsteps()
     {
         RaycastHit hit;
 
@@ -65,62 +60,62 @@ public class Footsteps : MonoBehaviour
         {
             if (hit.collider.CompareTag("Stone"))
             {
-                FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
-                FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+                FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
+                FootstepsSound.set3DAttributes(gameObject.transform.To3DAttributes());
                 FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone");
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
             else if (hit.collider.CompareTag("Wood"))
             {
-                FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
-                FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+                FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
+                FootstepsSound.set3DAttributes(gameObject.transform.To3DAttributes());
                 FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Wood");
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
             else if (hit.collider.CompareTag("Outside"))
             {
-                FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
-                FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+                FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
+                FootstepsSound.set3DAttributes(gameObject.transform.To3DAttributes());
                 FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone");
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
             else if (hit.collider.CompareTag("Inside_stone"))
             {
-                FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
-                FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+                FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
+                FootstepsSound.set3DAttributes(gameObject.transform.To3DAttributes());
                 FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone");
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
             else if (hit.collider.CompareTag("Inside_wood"))
             {
-                FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
-                FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+                FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
+                FootstepsSound.set3DAttributes(gameObject.transform.To3DAttributes());
                 FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Wood");
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
             else
             {
-                FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
-                FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+                FootstepsSound = RuntimeManager.CreateInstance(footstepsEvent);
+                FootstepsSound.set3DAttributes(gameObject.transform.To3DAttributes());
                 FootstepsSound.setParameterByNameWithLabel("Footsteps_surface", "Stone");
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
-        }       
+        }
     }
 
     private void PlayJump()
     {
         //if (!JumpSound.isValid())
-        if(IsGrounded())
+        if (IsGrounded())
         {
-            JumpSound = FMODUnity.RuntimeManager.CreateInstance(jumpEvent); // "event:/Footsteps"
- 
+            JumpSound = RuntimeManager.CreateInstance(jumpEvent); // "event:/Footsteps"
+
             if (IsGrounded())
             {
                 RaycastHit hit;
@@ -169,19 +164,15 @@ public class Footsteps : MonoBehaviour
     // Play landing sound
     private void OnCollisionEnter(Collision col)
     {
-        if (IsGrounded() && isGrounded == false)
-        {
-            PlayLanding();
-        }
+        if (IsGrounded() && isGrounded == false) PlayLanding();
     }
 
     private void PlayLanding()
     {
         if (IsGrounded() && isGrounded == false)
-        {
-            if (isJumping == true)
+            if (isJumping)
             {
-                LandSound = FMODUnity.RuntimeManager.CreateInstance(landEvent);
+                LandSound = RuntimeManager.CreateInstance(landEvent);
                 RaycastHit hit;
 
                 if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 0.5f))
@@ -221,13 +212,12 @@ public class Footsteps : MonoBehaviour
 
                 LandSound.release();
                 isGrounded = true;
-                isJumping = false;                
-            }           
-        }
+                isJumping = false;
+            }
     }
 
-    bool IsGrounded()
+    private bool IsGrounded()
     {
         return Physics.Raycast(transform.position, Vector3.down, distToGround + 0.5f);
-    }  
+    }
 }
