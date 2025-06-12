@@ -5,6 +5,9 @@ public class AudioEvents : MonoBehaviour
 {
     public static AudioEvents instance;
     
+    [Header("Snapshots")]
+    public EventReference insideRoomSnapshot;
+    
     [Header("Player Sounds")]
     public EventReference footSteps;
     public EventReference jump;

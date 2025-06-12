@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{bd55c769-0d1b-4e8e-90d0-b41b8b909a6f}">
+		<property name="name">
+			<value>Fire</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c600cc05-0796-4a04-8014-5a5c66c5ae38}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8fa74463-f04e-4c3f-b695-1e5c495aebb8}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{9a0cf2cc-dce7-4171-9015-05f5151d713e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c600cc05-0796-4a04-8014-5a5c66c5ae38}">
+		<relationship name="effects">
+			<destination>{4be83e57-ce7c-4484-a16f-559fb9a4f0d6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8fa74463-f04e-4c3f-b695-1e5c495aebb8}" />
+	<object class="MixerBusFader" id="{4be83e57-ce7c-4484-a16f-559fb9a4f0d6}" />
+</objects>

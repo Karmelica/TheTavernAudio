@@ -19,6 +19,8 @@ TagManager:
   - NewSpell
   - Inside_wood
   - AmbSwitch
+  - InsideRoom
+  - NoFire
   layers:
   - Default
   - TransparentFX

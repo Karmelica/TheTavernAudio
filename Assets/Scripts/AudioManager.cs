@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    
     public static AudioManager instance;
+    public EventInstance insideRoomSnapshotInstance;
     
     private void Awake()
     {
@@ -28,7 +28,7 @@ public class AudioManager : MonoBehaviour
     public EventInstance NewEventInstance(EventReference eventReference)
     {
         var eventInstance = RuntimeManager.CreateInstance(eventReference);
-        eventInstance.start();
+        //eventInstance.start();
         return eventInstance;
     }
     
@@ -36,7 +36,12 @@ public class AudioManager : MonoBehaviour
     {
         var eventInstance = RuntimeManager.CreateInstance(eventReference);
         eventInstance.set3DAttributes(position.To3DAttributes());
-        eventInstance.start();
+        //eventInstance.start();
         return eventInstance;
+    }
+
+    private void Start()
+    {
+        insideRoomSnapshotInstance = NewEventInstance(AudioEvents.instance.insideRoomSnapshot);
     }
 }
