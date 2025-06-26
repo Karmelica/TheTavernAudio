@@ -77,6 +77,9 @@
 		<property name="initialValue">
 			<value>-80</value>
 		</property>
+		<property name="attackTime">
+			<value>500</value>
+		</property>
 		<property name="releaseTime">
 			<value>500</value>
 		</property>
@@ -88,11 +91,14 @@
 		<property name="nameOfPropertyBeingModulated">
 			<value>value</value>
 		</property>
+		<property name="attackTime">
+			<value>500</value>
+		</property>
 		<property name="peakValue">
-			<value>-20</value>
+			<value>-75</value>
 		</property>
 		<property name="sustainValue">
-			<value>-20</value>
+			<value>-75</value>
 		</property>
 		<property name="releaseTime">
 			<value>500</value>

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638853225653906884
+  lastModified: 638865299316149798
   FileSizes:
   - Name: Desktop
-    Value: 1838
+    Value: 2174
   Exists: 1
 --- !u!114 &-8350776845789227882
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638853225653896879
+  lastModified: 638865299316129787
   FileSizes:
   - Name: Desktop
-    Value: 6930240
+    Value: 6980768
   Exists: 1
 --- !u!114 &-8118731523187895085
 MonoBehaviour:
@@ -66,6 +66,33 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &-7409707053395436026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/lowHealth
+  m_EditorClassIdentifier: 
+  Path: event:/lowHealth
+  Guid:
+    Data1: 679528579
+    Data2: 1162791061
+    Data3: -558986343
+    Data4: 539830315
+  Banks:
+  - {fileID: -8350776845789227882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4935
 --- !u!114 &-7312128551581571998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +173,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41503
+--- !u!114 &-2962584060944431661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/ambTavern
+  m_EditorClassIdentifier: 
+  Path: event:/music/ambTavern
+  Guid:
+    Data1: -1347604028
+    Data2: 1299218516
+    Data3: -847469891
+    Data4: -225302060
+  Banks:
+  - {fileID: -8350776845789227882}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 207609
 --- !u!114 &-2640043712643242657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +280,33 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &-372036612211327332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MusicMute
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MusicMute
+  Guid:
+    Data1: 547789841
+    Data2: 1092113816
+    Data3: -1449428344
+    Data4: -508872173
+  Banks:
+  - {fileID: -8350776845789227882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-212294354984395963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,6 +333,33 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &-192954136739886481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/OutsideMute
+  m_EditorClassIdentifier: 
+  Path: snapshot:/OutsideMute
+  Guid:
+    Data1: -1653695443
+    Data2: 1143199044
+    Data3: -143828305
+    Data4: 2070987129
+  Banks:
+  - {fileID: -8350776845789227882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,19 +380,26 @@ MonoBehaviour:
   - {fileID: 2763085350338139236}
   - {fileID: 3884673091574572903}
   - {fileID: 2478038278651092778}
-  - {fileID: 3894696211264672375}
   - {fileID: -2366283722492893198}
   - {fileID: 1922109967632095577}
   - {fileID: -7083373992987845697}
   - {fileID: -2640043712643242657}
   - {fileID: 8021124568834114045}
+  - {fileID: 5479270318602863352}
+  - {fileID: -2962584060944431661}
+  - {fileID: -372036612211327332}
+  - {fileID: 1182051042962078708}
+  - {fileID: -192954136739886481}
+  - {fileID: 2400530121939293561}
+  - {fileID: 3742502381710201300}
+  - {fileID: -7409707053395436026}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8350776845789227882}
   StringsBanks:
   - {fileID: -8619135215454451844}
   cacheVersion: 131847
-  cacheTime: 638853225653906884
+  cacheTime: 638865299316149798
   SerializableEventsDict:
   - key: event:/ambient/ambForest
     index: 0
@@ -294,18 +409,59 @@ MonoBehaviour:
     index: 2
   - key: event:/sfx/door
     index: 3
-  - key: event:/music/tavernMusic
-    index: 4
   - key: event:/ambient/ambFire
-    index: 5
+    index: 4
   - key: event:/sfx/land
-    index: 6
+    index: 5
   - key: snapshot:/Outside
-    index: 7
+    index: 6
   - key: snapshot:/FireplaceMute
-    index: 8
+    index: 7
   - key: snapshot:/InsideRoom
+    index: 8
+  - key: event:/music/musicTavern
     index: 9
+  - key: event:/music/ambTavern
+    index: 10
+  - key: snapshot:/MusicMute
+    index: 11
+  - key: snapshot:/TavernMute
+    index: 12
+  - key: snapshot:/OutsideMute
+    index: 13
+  - key: snapshot:/GlobalMute
+    index: 14
+  - key: snapshot:/lowHealthSnap
+    index: 15
+  - key: event:/lowHealth
+    index: 16
+--- !u!114 &1182051042962078708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/TavernMute
+  m_EditorClassIdentifier: 
+  Path: snapshot:/TavernMute
+  Guid:
+    Data1: -223226583
+    Data2: 1188914110
+    Data3: 2109480868
+    Data4: 1052194455
+  Banks:
+  - {fileID: -8350776845789227882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &1922109967632095577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,6 +490,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 806
+--- !u!114 &2400530121939293561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/GlobalMute
+  m_EditorClassIdentifier: 
+  Path: snapshot:/GlobalMute
+  Guid:
+    Data1: -575475521
+    Data2: 1108353617
+    Data3: -29627218
+    Data4: 985254452
+  Banks:
+  - {fileID: -8350776845789227882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &2478038278651092778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +573,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 501
+--- !u!114 &3742502381710201300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/lowHealthSnap
+  m_EditorClassIdentifier: 
+  Path: snapshot:/lowHealthSnap
+  Guid:
+    Data1: -354368446
+    Data2: 1340968585
+    Data3: -628343158
+    Data4: -1415754004
+  Banks:
+  - {fileID: -8350776845789227882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3884673091574572903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +628,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 490
---- !u!114 &3894696211264672375
+--- !u!114 &5479270318602863352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -428,14 +638,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/music/tavernMusic
+  m_Name: event:/music/musicTavern
   m_EditorClassIdentifier: 
-  Path: event:/music/tavernMusic
+  Path: event:/music/musicTavern
   Guid:
-    Data1: 191595913
-    Data2: 1228848712
-    Data3: -1427278451
-    Data4: 1445295371
+    Data1: -1762258479
+    Data2: 1194693097
+    Data3: -2093688423
+    Data4: -1626111624
   Banks:
   - {fileID: -8350776845789227882}
   IsStream: 1
@@ -444,7 +654,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 18000
+  Length: 77538
 --- !u!114 &8021124568834114045
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{96f611d1-91e9-4735-99d9-34837881139f}">
 		<property name="name">
-			<value>MusicPart</value>
+			<value>musicTavern</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{0b6b8589-be48-493e-8d75-edaa0b752556}</destination>
+			<destination>{937f676a-0225-45b1-86b5-dcb2bcf46a14}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{913c3398-1f1d-48c7-a2ff-94232fc01014}</destination>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{ab8e40b0-f1fc-4c1f-ab69-99c1eb2f25bc}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{2cc08ad1-3fbd-4faa-b0d2-b40ed69bb448}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{913c3398-1f1d-48c7-a2ff-94232fc01014}">
 		<relationship name="masterBus">
@@ -48,6 +51,9 @@
 		</relationship>
 		<relationship name="panner">
 			<destination>{98a82560-d49e-4524-9a65-e057142d55cb}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{7d5c8eb9-3bba-49eb-9c10-2fd0d45f4ed8}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{870da4b9-de67-4223-be2a-e7ad541ef6ea}" />
@@ -69,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4b311232-aa5e-4a53-81d8-5ac7d83ea005}">
+		<relationship name="modulators">
+			<destination>{b9b2203c-9d07-4457-b806-3e2f8379721f}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{809cdea5-18ab-447e-83db-77b8b7adc535}</destination>
 		</relationship>
@@ -121,9 +130,24 @@
 			<destination>{589ba419-fbdb-4112-99d4-d30a9b30c9f0}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{b9b2203c-9d07-4457-b806-3e2f8379721f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>3000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{809cdea5-18ab-447e-83db-77b8b7adc535}">
 		<relationship name="effects">
 			<destination>{9ec3f4c3-fb26-49d5-a0f1-7b8fe6f69daf}</destination>
+			<destination>{9a6bb849-2f14-4f4e-a0f7-60d9865e82e4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0ae8d657-01db-480a-9afc-107b69e5cb91}" />
@@ -135,5 +159,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{58a344a6-7a80-4584-85c7-1f7ba6c9cc7f}" />
 	<object class="MixerBusFader" id="{9ec3f4c3-fb26-49d5-a0f1-7b8fe6f69daf}" />
+	<object class="SpatialiserEffect" id="{9a6bb849-2f14-4f4e-a0f7-60d9865e82e4}">
+		<property name="soundSize">
+			<value>36</value>
+		</property>
+		<property name="minimumExtent">
+			<value>242</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2c194413-2940-4ca4-8e46-0bf346e293f6}" />
 </objects>
