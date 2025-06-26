@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638865299316149798
+  lastModified: 638865317503422997
   FileSizes:
   - Name: Desktop
     Value: 2174
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638865299316129787
+  lastModified: 638865317503397922
   FileSizes:
   - Name: Desktop
-    Value: 6980768
+    Value: 6981440
   Exists: 1
 --- !u!114 &-8118731523187895085
 MonoBehaviour:
@@ -249,7 +249,7 @@ MonoBehaviour:
   - {fileID: -8350776845789227882}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -399,7 +399,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8619135215454451844}
   cacheVersion: 131847
-  cacheTime: 638865299316149798
+  cacheTime: 638865317503422997
   SerializableEventsDict:
   - key: event:/ambient/ambForest
     index: 0

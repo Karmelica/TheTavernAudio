@@ -37,7 +37,7 @@
 			<value>frequencyA</value>
 		</property>
 		<property name="value">
-			<value>400</value>
+			<value>800</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{3885321e-d003-44f6-b0b0-38532cc2c8a0}</destination>
@@ -78,7 +78,7 @@
 			<value>value</value>
 		</property>
 		<property name="attackTime">
-			<value>760</value>
+			<value>1200</value>
 		</property>
 		<property name="attackShape">
 			<value>0.419218838</value>
